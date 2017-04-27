@@ -1,0 +1,140 @@
+[
+    {
+        "outputFile": "/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 35,
+                    "endOffset": 86
+                },
+                "from": {
+                    "file": "/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 1,
+                        "startOffset": 175,
+                        "endColumn": 32,
+                        "endOffset": 206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 91,
+                    "endColumn": 50,
+                    "endOffset": 137
+                },
+                "from": {
+                    "file": "/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 1,
+                        "startOffset": 208,
+                        "endColumn": 47,
+                        "endOffset": 254
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 142,
+                    "endColumn": 54,
+                    "endOffset": 192
+                },
+                "from": {
+                    "file": "/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 53,
+                        "endColumn": 51,
+                        "endOffset": 103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 197,
+                    "endColumn": 41,
+                    "endOffset": 234
+                },
+                "from": {
+                    "file": "/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 1,
+                        "startOffset": 136,
+                        "endColumn": 38,
+                        "endOffset": 173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 239,
+                    "endColumn": 33,
+                    "endOffset": 268
+                },
+                "from": {
+                    "file": "/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 1,
+                        "startOffset": 105,
+                        "endColumn": 30,
+                        "endOffset": 134
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 273,
+                    "endColumn": 47,
+                    "endOffset": 316
+                },
+                "from": {
+                    "file": "/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 1,
+                        "startOffset": 256,
+                        "endColumn": 44,
+                        "endOffset": 299
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 321,
+                    "endColumn": 40,
+                    "endOffset": 357
+                },
+                "from": {
+                    "file": "/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 1,
+                        "startOffset": 301,
+                        "endColumn": 37,
+                        "endOffset": 337
+                    }
+                }
+            }
+        ]
+    }
+]

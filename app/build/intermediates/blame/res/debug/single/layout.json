@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/res/merged/debug/layout/row.xml",
+        "source": "/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/src/main/res/layout/row.xml"
+    },
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/res/merged/debug/layout/add_edit.xml",
+        "source": "/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/src/main/res/layout/add_edit.xml"
+    }
+]

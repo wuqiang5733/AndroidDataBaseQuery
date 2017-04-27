@@ -1,0 +1,7 @@
+#Thu Apr 27 22:47:29 CST 2017
+base.0=/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b61d6327738f0b529b132685bffb5cb691c6f9d6
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_55284e500c8231fa7d2d299f470e1a6808a7b93b/classes.dex
+base.1=/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_55284e500c8231fa7d2d299f470e1a6808a7b93b
+file.0=/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b61d6327738f0b529b132685bffb5cb691c6f9d6/classes.dex

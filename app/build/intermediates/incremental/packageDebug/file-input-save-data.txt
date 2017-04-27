@@ -1,0 +1,27 @@
+#Internal package file, do not edit.
+#Thu Apr 27 22:47:29 CST 2017
+2.base=/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/res/resources-debug.ap_
+5.file=/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/res/resources-debug.ap_/res/layout/add_edit.xml
+5.set=ANDROID_RESOURCE
+3.base=/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_55284e500c8231fa7d2d299f470e1a6808a7b93b
+6.file=/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+2.set=ANDROID_RESOURCE
+4.base=/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/res/resources-debug.ap_
+7.file=/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/res/resources-debug.ap_/res/layout/row.xml
+7.set=ANDROID_RESOURCE
+count=8
+0.file=/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b61d6327738f0b529b132685bffb5cb691c6f9d6/classes.dex
+5.base=/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/res/resources-debug.ap_
+4.set=ANDROID_RESOURCE
+6.base=/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/res/resources-debug.ap_
+1.file=/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/res/resources-debug.ap_/res/menu/actions.xml
+1.set=ANDROID_RESOURCE
+7.base=/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/res/resources-debug.ap_
+2.file=/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+6.set=ANDROID_RESOURCE
+0.base=/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b61d6327738f0b529b132685bffb5cb691c6f9d6
+3.file=/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_55284e500c8231fa7d2d299f470e1a6808a7b93b/classes.dex
+3.set=DEX
+1.base=/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/res/resources-debug.ap_
+4.file=/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/ic_launcher.png
+0.set=DEX

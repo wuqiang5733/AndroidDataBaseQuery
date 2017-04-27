@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_55284e500c8231fa7d2d299f470e1a6808a7b93b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="463a51493fa37ecbd3629363476d0bd1f5093503">
+        <dex dex="/Users/mac/AndroidStudioProjects/cw-omnibus-8.4/Database/ConstantsROWID/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b61d6327738f0b529b132685bffb5cb691c6f9d6/classes.dex" />
+    </item>
+
+</items>
