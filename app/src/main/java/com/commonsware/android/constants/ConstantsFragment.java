@@ -59,6 +59,7 @@ public class ConstantsFragment extends ListFragment implements
         setListAdapter(adapter);
 
         if (current == null) {
+            // 创建数据库
             db = new DatabaseHelper(getActivity());
             task = new LoadCursorTask().execute();
         }
@@ -72,6 +73,7 @@ public class ConstantsFragment extends ListFragment implements
         }
 
         ((CursorAdapter) getListAdapter()).getCursor().close();
+        // 关闭数据库
         db.close();
 
         super.onDestroy();
@@ -156,3 +158,5 @@ public class ConstantsFragment extends ListFragment implements
         }
     }
 }
+// 这个数据库教程不错：http://www.androidhive.info/2011/11/android-sqlite-database-tutorial/
+// Query 语法最最详细的教程： http://stackoverflow.com/questions/1243199/how-to-perform-an-sqlite-query-within-an-android-application
