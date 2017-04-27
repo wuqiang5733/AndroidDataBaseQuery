@@ -61,6 +61,7 @@ public class ConstantsFragment extends ListFragment implements
         if (current == null) {
             // 创建数据库
             db = new DatabaseHelper(getActivity());
+            // 执行查询，并且把结果放到 ListView 当中
             task = new LoadCursorTask().execute();
         }
     }
@@ -68,12 +69,18 @@ public class ConstantsFragment extends ListFragment implements
 
     @Override
     public void onDestroy() {
+        /**
+         * Also note that in onDestroy(), as shown previously, we call cancel() on the AsyncTask if it is not null.
+         * If the task is still running, calling cancel() will prevent onPostExecute() from being invoked,
+         * and we will not have to worry about updating our UI after the fragment has been destroyed.
+         */
         if (task != null) {
             task.cancel(false);
         }
-
+         // 通过 getListAdapter() 获得 CursorAdapter ， 然后再通过 getCursor() 方法 获得 Cursor 并将其关闭
+        //  你不能关闭一个正在被CursorAdapter使用的 Cursor
         ((CursorAdapter) getListAdapter()).getCursor().close();
-        // 关闭数据库
+        // 关闭 Cursor 之后 才能 关闭数据库
         db.close();
 
         super.onDestroy();
@@ -119,13 +126,21 @@ public class ConstantsFragment extends ListFragment implements
     }
 
     abstract private class BaseTask<T> extends AsyncTask<T, Void, Cursor> {
+        /**
+         * onPostExecute() then uses changeCursor() to replace the Cursor in the SimpleCursorAdapter with the results.
+         * Since our SimpleCursorAdapter was created with a null Cursor,
+         * changeCursor() just slides in the new Cursor, telling the ListView that the data changed.
+         * This causes our ListView to be populated.
+           This way, the UI will not be frozen while the query is being executed,
+           yet we only update the UI from the main application thread.
+         */
         @Override
         public void onPostExecute(Cursor result) {
             ((CursorAdapter) getListAdapter()).changeCursor(result);
             current = result;
             task = null;
         }
-
+// 只有执行 getReadableDatabase() 或者 getWritableDatabase() 的时候，才会创建数据库，所以创建数据库也是在后台执行的
         Cursor doQuery() {
             Cursor result = db.getReadableDatabase()
                     .query(DatabaseHelper.TABLE,
@@ -134,7 +149,7 @@ public class ConstantsFragment extends ListFragment implements
                                     DatabaseHelper.VALUE},
                             DatabaseHelper.TITLE + " like ?" ,  new String[] { "Gravity, M" + "%"}, null, null, DatabaseHelper.TITLE);
 //                            DatabaseHelper.TITLE + "=?" ,  new String[] { "Gravity, Mars"}, null, null, DatabaseHelper.TITLE);
-
+            // 只有需要结果集的时候，query 才会被执行，所以这里 result.getCount(); 就是这一目的
             result.getCount();
 
             return (result);
@@ -153,7 +168,7 @@ public class ConstantsFragment extends ListFragment implements
         protected Cursor doInBackground(ContentValues... values) {
             db.getWritableDatabase().insert(DatabaseHelper.TABLE,
                     DatabaseHelper.TITLE, values[0]);
-
+        // 插入数据之后 又执行了一次查询，这样 View 才能更新
             return (doQuery());
         }
     }

@@ -20,6 +20,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.hardware.SensorManager;
 
+// data de;nition language (DDL)
 public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "constants.db";
     private static final int SCHEMA = 1;
@@ -31,8 +32,16 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         super(context, DATABASE_NAME, null, SCHEMA);
     }
 
+    /**
+     * For creating your tables and indexes, you will need to call execSQL() on your SQLiteDatabase,
+     * providing the DDL statement you wish to apply against the database.
+     * Barring a database error, this method returns nothing.
+     */
     @Override
     public void onCreate(SQLiteDatabase db) {
+        // This will create a table, named constants, with two data columns: title (text) and value (a float, or “real” in SQLite terms).
+        // The execSQL() method works for any SQL that does not return results,
+        // so it can handle INSERT, UPDATE, DELETE, etc. just fine.
         db.execSQL("CREATE TABLE constants (title TEXT, value REAL);");
         // ContentValues : This class is used to store a set of values that the ContentResolver can process.
         ContentValues cv = new ContentValues();
